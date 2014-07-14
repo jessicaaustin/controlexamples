@@ -37,7 +37,7 @@ figure;
     title('Bode Diagram (simulation)');
 
 % Estimate transfer function
-% Of the form:  X/F = 1/(m*s^2 + b*s + k)
+% Of the form:  X/F = 1/(m*s^2 + c*s + k)
 np = 2;
 nz = 0;
 fprintf('\nEstimating transfer function....\n');
